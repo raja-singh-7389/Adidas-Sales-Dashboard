@@ -7,6 +7,6 @@ import plotly.graph_objects as go
 print("Hello Learners")
 
 
-df = pd.read_csv('adidas.csv.csv')
+df = pd.read_csv('Adidas.csv.csv')
 
 st.dataframe(df)
