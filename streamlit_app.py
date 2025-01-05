@@ -1,5 +1,12 @@
+import pandas as pd 
 import streamlit as st
+import datetime
+import plotly.express as px 
+import plotly.graph_objects as go
 
-st.title('🎈 App Name')
+print("Hello Learners")
 
-st.write('Hello world!')
+
+df = pd.read_csv('adidas.csv.csv')
+
+st.dataframe(df)
