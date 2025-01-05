@@ -26,3 +26,8 @@ with col1:
         </style>
         <center><h1 class='title-test'>Adidas Interactive sales Dashboard</h1></center>"""
 
+with col2:
+ st.markdown(html_title,unsafe_allow_html = True)
+
+
+
