@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 plotly
-openpyx1
+openpy
 xlrd
 seaborn
 matplotlib
